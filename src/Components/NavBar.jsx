@@ -3,8 +3,8 @@ import imgletterj from "../assets/letterJ.png";
 
 function NavBar() {
   return (
-    <div className="bg-gray-900">
-      <nav className="hidden lg:flex justify-between text-center items-center p-5 lg:p-15 text-white">
+    <div className="">
+      <nav className="hidden lg:flex justify-between text-center items-center lg:pt-10 lg:mr-15 lg:ml-15 text-white">
         <div className="flex justify-center items-center">
           <div className="">
             <img className="text-green-900" src={imgletterj} alt="letterj" />

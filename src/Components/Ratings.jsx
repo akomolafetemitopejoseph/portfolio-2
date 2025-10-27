@@ -2,12 +2,13 @@ import React from "react";
 
 const Ratings = () => {
   return (
-    <main className="bg-gray-900">
-      <div className="grid grid-cols-2 w-1/2 lg:w-full mx-auto gap-10  lg:flex lg:justify-between p-5 lg:p-15 text-white ">
+    <main className="">
+      <div className="grid lg:flex lg:justify-between mt-5 pb-5 lg:mr-15 lg:ml-15 text-white ">
         <div className="flex justify-center items-center text-center mr-8 ">
           <h1 className="text-7xl font-bold">1</h1>
           <p className="text-l text-start font-semibold text-gray-300">
-            year of experience
+            year <br />
+            of experience
           </p>
         </div>
 
