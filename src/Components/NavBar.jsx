@@ -4,16 +4,19 @@ import imgletterj from "../assets/letterJ.png";
 function NavBar() {
   return (
     <div className="">
-      <nav className="hidden lg:flex justify-between text-center items-center lg:pt-10 lg:mr-15 lg:ml-15 text-white">
+      <nav className="lg:flex justify-between text-center items-center px-2 py-2 lg:px-15 lg:pt-10 text-white">
         <div className="flex justify-center items-center">
           <div className="">
-            <img className="text-green-900" src={imgletterj} alt="letterj" />
+            <img className="text-green-900 text-[15px]" src={imgletterj} alt="letterj" />
           </div>
-          <h1 className="capitalize font-extrabold text-2xl">uncle joe.</h1>
+
+          <h1 className="capitalize bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold text-2xl">
+            uncle joe.
+          </h1>
         </div>
 
         <div className="">
-          <ul className="flex  justify-between text-center capitalize font-semibold text-xl gap-5 lg:gap-10">
+          <ul className="hidden lg:flex  justify-between text-center capitalize font-semibold text-xl gap-5 lg:gap-10">
             <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
               home
             </li>

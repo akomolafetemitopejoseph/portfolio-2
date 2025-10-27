@@ -5,7 +5,7 @@ import Ratings from "./Components/Ratings";
 
 function App() {
   return (
-    <div className="bg-gradient-to-tr from-slate-900 via-neutral-800 to-neutral-900">
+    <div className="bg-gradient-to-r from-zinc-900 via-neutral-700 to-stone-900">
       <NavBar />
       <HeroSection />
       <Ratings />
