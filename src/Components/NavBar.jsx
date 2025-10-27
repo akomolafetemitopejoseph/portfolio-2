@@ -1,13 +1,19 @@
 import React from "react";
 import imgletterj from "../assets/letterJ.png";
+import { FaBarsStaggered } from "react-icons/fa6";
+import { RxCross1 } from "react-icons/rx";
 
 function NavBar() {
   return (
     <div className="">
       <nav className="lg:flex justify-between text-center items-center px-2 py-2 lg:px-15 lg:pt-10 text-white">
-        <div className="flex justify-center items-center">
+        <div className="hidden lg:flex justify-center items-center">
           <div className="">
-            <img className="text-green-900 text-[15px]" src={imgletterj} alt="letterj" />
+            <img
+              className="text-green-900 text-[15px]"
+              src={imgletterj}
+              alt="letterj"
+            />
           </div>
 
           <h1 className="capitalize bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold text-2xl">
@@ -38,6 +44,47 @@ function NavBar() {
           </ul>
         </div>
       </nav>
+
+      <div className="w-[70%] lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 fixed right-0 top-0">
+        <div className="flex lg:hidden justify-end mx-2.5 my-3">
+          <FaBarsStaggered className="text-3xl" />
+          <RxCross1 className="text-3xl" />
+        </div>
+        <div className="flex lg:hidden justify-center mt-10 items-center">
+          <div className="">
+            <img
+              className="text-green-900 text-2xl "
+              src={imgletterj}
+              alt="letterj"
+            />
+          </div>
+
+          <h1 className="capitalize bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold text-2xl">
+            uncle joe.
+          </h1>
+          <div></div>
+        </div>
+        <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
+          <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            home
+          </li>
+          <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            services
+          </li>
+          <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            resume
+          </li>
+          <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            work
+          </li>
+          <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            contact
+          </li>
+          <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-3xl border-2 border-green-900 px-4 py-3 rounded cursor-pointer ">
+            hire me
+          </button>
+        </ul>
+      </div>
     </div>
   );
 }

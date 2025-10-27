@@ -30,7 +30,7 @@ const HeroSection = () => {
                 akomolafe <br /> temitope joseph
               </h1>
 
-              <p className="text-gray-400 text-[14px] lg:text-xl ">
+              <p className="text-gray-400 text-[14px] lg:text-xl leading-5 lg:leading-10">
                 I specialize in building clean, responsive, and high-performing
                 websites. With expertise in React, Tailwind CSS, and JavaScript,
                 I create seamless digital experiences that are both visually
