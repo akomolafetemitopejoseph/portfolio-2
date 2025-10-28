@@ -2,6 +2,7 @@ import React from "react";
 import imgletterj from "../assets/letterJ.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -65,9 +66,12 @@ function NavBar() {
           <div></div>
         </div>
         <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
-          <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-            home
-          </li>
+          <Link to="/" smooth={true} duration={1000}>
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+              home
+            </li>
+          </Link>
+
           <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
             services
           </li>
