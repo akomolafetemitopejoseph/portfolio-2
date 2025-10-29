@@ -24,12 +24,18 @@ function NavBar() {
 
         <div className="">
           <ul className="hidden lg:flex  justify-between text-center capitalize font-semibold text-xl gap-5 lg:gap-10">
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-              home
-            </li>
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-              services
-            </li>
+            <Link to="/" smooth={true} duration={1000}>
+              <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+                home
+              </li>
+            </Link>
+
+            <Link to="/service" smooth={true} duration={1000}>
+              <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+                services
+              </li>
+            </Link>
+
             <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
               resume
             </li>
