@@ -13,7 +13,7 @@ function NavBar() {
 
   return (
     <div className="">
-      <nav className="flex lg:fixed right-0 left-0 z-100 lg:flex justify-between text-center items-center px-3 py-5 lg:px-5 lg:pt-5  text-white">
+      <nav className="flex lg: lg:flex justify-between text-center items-center px-3 py-5 lg:px-5 lg:pt-5  text-white">
         <div className="lg:flex justify-center items-center">
           <div className="flex justify-center items-center">
             <img
@@ -64,8 +64,11 @@ function NavBar() {
           )}
         </div>
       </nav>
+
+      {/* NOTE: FOR MOBILE SCREEN */}
+      
       {isMobile && (
-        <div className=" w-[70%] lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 fixed right-0 top-0">
+        <div className="fixed  z-10  right-0 top-20 w-[70%] lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 ">
           <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
             <Link to="/" smooth={true} duration={1000}>
               <li className="cursor-pointer hover:text-green-800 hover:border-b-1">

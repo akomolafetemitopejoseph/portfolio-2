@@ -1,8 +1,8 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
 import Services from "./Components/Services";
+import Home from "./pages/Home";
 
 function App() {
   return (

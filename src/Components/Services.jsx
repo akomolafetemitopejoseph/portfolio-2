@@ -1,7 +1,7 @@
 const Services = () => {
   return (
-    <div className="px-5 py-5 lg:px-15 lg:pt-5 text-white">
-      <h1 className="text-2xl lg:text-4xl">
+    <div className="px-5  py-5 lg:px-20  lg:pt-15 text-white">
+      <h1 className="text-2xl lg:text-3xl">
         Frontend & Web Design
         <span className=" ml-3 border-b-4 hover:text-green-800 transform duration-500 border-green-900">
           Services.
