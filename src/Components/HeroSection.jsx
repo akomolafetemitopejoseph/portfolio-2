@@ -7,7 +7,7 @@ import { CiSaveDown1 } from "react-icons/ci";
 
 const HeroSection = () => {
   return (
-    <main className=" flex-1 text-center lg:flex gap-2 px-5 py-5 lg:px-15 lg:pt-5 text-white">
+    <main className=" flex-1  text-center lg:flex gap-2 px-5 py-5  lg:px-15 lg:pt-5 text-white">
       <div className="flex justify-center mt-3 lg:mt-5">
         <img
           className=" w-[300px] lg:w-450 h-[300px] lg:h-120 rounded-full"
@@ -19,18 +19,18 @@ const HeroSection = () => {
         <div>
           <div className="flex-1 lg:flex">
             <div>
-              <h1 className="text-xl mt-3 lg:text-3xl font-semibold mb-5 lg:mb-5">
+              <h1 className="text-2xl mt-3 lg:text-4xl font-extrabold mb-5 lg:mb-5">
                 Frontend Developer
               </h1>
 
               <h2 className="text-sm font-bold  mb-3 lg:mb-5 capitalize">
                 Hello I'm
               </h2>
-              <h1 className="text-2xl lg:text-7xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent capitalize font-bold mb-5 lg:mb-10">
+              <h1 className="text-2xl lg:text-7xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent capitalize font-extrabold mb-5 lg:mb-10">
                 akomolafe <br /> temitope joseph
               </h1>
 
-              <p className="text-gray-400 text-[14px] lg:text-xl leading-5 lg:leading-10">
+              <p className="text-gray-400 text-[17px] lg:text-xl leading-7 lg:leading-10">
                 I specialize in building clean, responsive, and high-performing
                 websites. With expertise in React, Tailwind CSS, and JavaScript,
                 I create seamless digital experiences that are both visually
