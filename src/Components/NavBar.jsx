@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import imgletterj from "../assets/letterJ.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
-import { Link } from "react-router-dom";
 
 function NavBar() {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,17 +28,13 @@ function NavBar() {
 
         <div className="">
           <ul className="hidden lg:flex  justify-between text-center capitalize font-semibold text-xl gap-5 lg:gap-10">
-            <Link to="/" smooth={true} duration={1000}>
-              <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-                home
-              </li>
-            </Link>
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+              home
+            </li>
 
-            <Link to="/service" smooth={true} duration={1000}>
-              <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-                services
-              </li>
-            </Link>
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+              services
+            </li>
 
             <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
               resume
@@ -66,32 +61,28 @@ function NavBar() {
       </nav>
 
       {/* NOTE: FOR MOBILE SCREEN */}
-      
+
       {isMobile && (
-        <div className="fixed  z-10  right-0 top-20 w-[70%] lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 ">
+        <div className="fixed right-0 top-0 w-[70%]  lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 ">
           <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
-            <Link to="/" smooth={true} duration={1000}>
-              <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-                home
-              </li>
-            </Link>
+            <li className="hover:text-green-800 hover:border-b-1">
+              home
+            </li>
 
-            <Link to="/service" smooth={true} duration={1000}>
-              <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-                services
-              </li>
-            </Link>
+            <li className=" hover:text-green-800 hover:border-b-1">
+              services
+            </li>
 
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="hover:text-green-800 hover:border-b-1">
               resume
             </li>
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="hover:text-green-800 hover:border-b-1">
               work
             </li>
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="hover:text-green-800 hover:border-b-1">
               contact
             </li>
-            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-3xl border-2 border-green-900 px-4 py-3 rounded cursor-pointer ">
+            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-3xl border-2 border-green-900 px-4 py-3 rounded">
               hire me
             </button>
           </ul>
