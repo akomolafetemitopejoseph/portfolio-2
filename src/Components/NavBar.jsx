@@ -37,7 +37,7 @@ function NavBar() {
             </li>
 
             <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
-              resume
+              skills
             </li>
             <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
               work
@@ -74,7 +74,7 @@ function NavBar() {
             </li>
 
             <li className="hover:text-green-800 hover:border-b-1">
-              resume
+              skills
             </li>
             <li className="hover:text-green-800 hover:border-b-1">
               work

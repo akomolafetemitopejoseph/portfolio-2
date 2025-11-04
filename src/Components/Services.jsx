@@ -55,25 +55,24 @@ const Services = () => {
   ];
 
   return (
-    <div className="px-5 py-5  lg:px-10 lg:pt-10">
-      <div>
-        <h1>
+    <div className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
+      <div className="mb-2 lg:mb-5">
+        <h1 className="text-[16px] font-bold lg:text-xl">
           Hi there! I’m a frontend developer with a passion for creating
-          beautiful, easy-to-use websites — especially for nature, flower, and
-          landscaping projects. I love turning ideas into clean, responsive
+          beautiful, easy-to-use websites. I love turning ideas into clean, responsive
           designs that work perfectly on any device. Whether you need a personal
           portfolio, a business site, or a simple page to showcase your
           services, I’m here to make your online presence stand out.
         </h1>
       </div>
-      <div>
-        <h1>Frontend & Web Design Services</h1>
+      <div className="text-2xl font-bold lg:text-4xl capitalize mb-2 lg:mb-5 ">
+        <h1>my services as a frontend developer</h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-2 lg:mt-5">
         {mySevices.map((mykey, index) => (
           <div key={index}>
-            <h1>{mykey.leading}</h1>
-            <h1>{mykey.head}</h1>
+            <h1 className="text-2xl font-bold lg:text-4xl capitalize mb-2 lg:mb-5">{mykey.leading}</h1>
+            <h1 className="text-xl font-bold lg:text-2xl capitalize mb-2 lg:mb-3">{mykey.head}</h1>
             <p>{mykey.paragraph}</p>
           </div>
         ))}

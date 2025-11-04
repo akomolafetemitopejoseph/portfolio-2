@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import imgmain from "../assets/myimage.jpg";
 import { CiSaveDown1 } from "react-icons/ci";
-// import { TextGenerateEffect } from "../Components2/Text-generate-effect";
+
 
 const HeroSection = () => {
   return (
@@ -30,7 +30,7 @@ const HeroSection = () => {
               <h1 className="text-2xl lg:text-2xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent capitalize font-extrabold mb-5 lg:mb-5">
                 akomolafe <br /> temitope joseph
               </h1>
-              {/* <TextGenerateEffect> */}
+               
                 <p className="text-gray-400 text-[17px] lg:text-l leading-5 lg:leading-7">
                   I specialize in building clean, responsive, and
                   high-performing websites. With expertise in React, Tailwind
