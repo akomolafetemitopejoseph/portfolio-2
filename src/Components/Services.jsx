@@ -59,20 +59,28 @@ const Services = () => {
       <div className="mb-2 lg:mb-5">
         <h1 className="text-[16px] font-bold lg:text-xl">
           Hi there! I’m a frontend developer with a passion for creating
-          beautiful, easy-to-use websites. I love turning ideas into clean, responsive
-          designs that work perfectly on any device. Whether you need a personal
-          portfolio, a business site, or a simple page to showcase your
-          services, I’m here to make your online presence stand out.
+          beautiful, easy-to-use websites. I love turning ideas into clean,
+          responsive designs that work perfectly on any device. Whether you need
+          a personal portfolio, a business site, or a simple page to showcase
+          your services, I’m here to make your online presence stand out.
         </h1>
       </div>
-      <div className="text-2xl font-bold lg:text-4xl capitalize mb-2 lg:mb-5 ">
+      <div className="text-2xl font-bold lg:text-4xl capitalize mt-3 mb-3 lg:mb-5 lg:mt-5 ">
         <h1>my services as a frontend developer</h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-2 lg:mt-5">
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-2 lg:mt-5 ">
         {mySevices.map((mykey, index) => (
-          <div key={index}>
-            <h1 className="text-2xl font-bold lg:text-4xl capitalize mb-2 lg:mb-5">{mykey.leading}</h1>
-            <h1 className="text-xl font-bold lg:text-2xl capitalize mb-2 lg:mb-3">{mykey.head}</h1>
+          <div
+            className="block p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            key={index}
+          >
+            <h1 className="text-2xl font-bold lg:text-4xl capitalize mb-2 lg:mb-5">
+              {mykey.leading}
+            </h1>
+            <h1 className="text-xl font-bold lg:text-2xl capitalize mb-2 lg:mb-3">
+              {mykey.head}
+            </h1>
             <p>{mykey.paragraph}</p>
           </div>
         ))}
