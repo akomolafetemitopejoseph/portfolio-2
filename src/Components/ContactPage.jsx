@@ -33,11 +33,14 @@ const ContactPage = () => {
                 Email :
               </h1>
               <p className="mb-3">
-                <a className="text-gray-400 text-[17px] lg:text-l" href="#">
+                <a
+                  className="text-gray-400 text-[17px] lg:text-l hover:text-gray-300 active:text-gray-200"
+                  href="#"
+                >
                   akomolafetemitope6@gmail.com
                 </a>
               </p>
-              <span className="text-gray-400 text-[17px] lg:text-l flex items-center gap-2">
+              <span className="text-gray-400 text-[17px] lg:text-l flex items-center gap-2 hover:text-gray-300 active:text-gray-200">
                 <BsTelephoneInbound /> +234 9164127577
               </span>
             </div>
@@ -51,8 +54,8 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <form className="w-full">
-          <div class="relative z-0 w-full mb-5 group">
+        <form className="w-full mt-5">
+          <div className="relative z-0 w-full mb-5 group">
             <input
               type="text"
               name="floating_name"
@@ -62,14 +65,14 @@ const ContactPage = () => {
               required
             />
             <label
-              for="floating_name"
+              
               className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Name :
             </label>
           </div>
 
-          <div class="relative z-0 w-full mb-5 group">
+          <div className="relative z-0 w-full mb-5 group">
             <input
               type="email"
               name="floating_email"
@@ -79,13 +82,13 @@ const ContactPage = () => {
               required
             />
             <label
-              for="floating_email"
+            
               className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Email address :
             </label>
           </div>
-          <div class="relative z-0 w-full mb-5 group">
+          <div className="relative z-0 w-full mb-5 group">
             <input
               type="text"
               name="floating_text"
@@ -95,7 +98,7 @@ const ContactPage = () => {
               required
             />
             <label
-              for="floating_text"
+             
               className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Message :
