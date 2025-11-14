@@ -22,9 +22,11 @@ const Skills = () => {
       {skill.map((skill, index) => (
         <div className=" grid grid-cols-2" key={index}>
           <h1>{skill.name}</h1>
-          <div className="relative w-full h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+          
           <h1>{skill.level}</h1>
+          <div className="relative w-full h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
         </div>
+        
       ))}
     </div>
   );
