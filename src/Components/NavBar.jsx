@@ -28,24 +28,24 @@ function NavBar() {
 
         <div className="">
           <ul className="hidden lg:flex  justify-between text-center capitalize font-semibold text-xl gap-5 lg:gap-10">
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
               home
             </li>
 
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
               services
             </li>
 
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
               skills
             </li>
             <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
               work
             </li>
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
               contact
             </li>
-            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-xl border-2 border-green-900 px-4 py-1 rounded cursor-pointer ">
+            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-xl border-2 border-green-900 px-4 py-1 rounded cursor-pointer transition-all duration-400">
               hire me
             </button>
           </ul>

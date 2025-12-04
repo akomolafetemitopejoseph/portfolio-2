@@ -1,34 +1,125 @@
 import React from "react";
 
 const Skills = () => {
-  const skill = [
-    { name: "react", level: "70%" },
-    { name: "tailwind", level: "78%" },
-    { name: "javascript", level: "50" },
-    { name: "moden css", level: "78%" },
-    { name: "ui/ux design", level: "78%" },
-    { name: "responsive design", level: "78%" },
-    { name: "wed animation", level: "70%" },
-    { name: "git", level: "70%" },
-  ];
+  // const skill = [
+  //   { name: "react", level: "70%" },
+  //   { name: "tailwind", level: "78%" },
+  //   { name: "javascript", level: "50" },
+  //   { name: "moden css", level: "78%" },
+  //   { name: "ui/ux design", level: "78%" },
+  //   { name: "responsive design", level: "78%" },
+  //   { name: "wed animation", level: "70%" },
+  //   { name: "git", level: "70%" },
+  // ];
   return (
-    <div className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
-      <div
-        className="flex
-      justify-center"
-      >
-        <h1>Technical Skills</h1>
-      </div>
-      {skill.map((skill, index) => (
-        <div className=" grid grid-cols-2" key={index}>
-          <h1>{skill.name}</h1>
+
+    <div>
+      <div className="mt-2 lg:mt-15 ">
+          <h1
+            className="text-center pb-2  text-xl m
+          md:text-2xl lg:text-3xl font-bold mt-2 lg:pt-10 text-white"
+          >
+            Technical Skills
+          </h1>
           
-          <h1>{skill.level}</h1>
-          <div className="relative w-full h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
         </div>
+
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-2 m-2 lg:m-5 text-white">
+
+          <div className="pb-3 lg:p-5 mt-2 ">
+            
+            <h1 className="flex justify-between text-sm lg:text-2xl  space-30 mb-2">
+              React <span>70%</span>
+            </h1>
+            <div className=" h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[70%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              Tailwind <span>78%</span>
+            </h1>
+            <div className="h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[78%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              JavaScript <span>50%</span>
+            </h1>
+            <div className="h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[50%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              Modern CSS <span>78%</span>
+            </h1>
+            <div className=" h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[78%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              UI/UX Design <span>70%</span>
+            </h1>
+            <div className=" h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[70%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 lg:mt-2">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              Responsive Design <span>70%</span>
+            </h1>
+            <div className=" h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[70%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 lg:mt-4">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              Web Animation <span>70%</span>
+            </h1>
+            <div className=" h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[70%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+          <div className="pb-3 lg:p-5 lg:mt-4">
+            <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
+              Git <span>75%</span>
+            </h1>
+            <div className=" h-3 bg-gray-100 rounded-2xl">
+              <div className="w-[75%] h-full bg-gradient-to-r from-green-700 to-green-200"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    
+   
+    // <div className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
+    //   <div
+    //     className="flex
+    //   justify-center"
+    //   >
+    //     <h1>Technical Skills</h1>
+    //   </div>
+    //   {skill.map((skill, index) => (
+    //     <div className="flex" key={index}>
+    //       <h1>{skill.name}</h1>
+          
+    //       <h1>{skill.level}</h1>
+    //       <div className="w-full"></div>
+    //     </div>
         
-      ))}
-    </div>
+    //   ))}
+    // </div>
   );
 };
 
