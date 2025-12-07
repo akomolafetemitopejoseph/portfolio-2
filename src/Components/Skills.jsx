@@ -1,20 +1,11 @@
 import React from "react";
 
 const Skills = () => {
-  // const skill = [
-  //   { name: "react", level: "70%" },
-  //   { name: "tailwind", level: "78%" },
-  //   { name: "javascript", level: "50" },
-  //   { name: "moden css", level: "78%" },
-  //   { name: "ui/ux design", level: "78%" },
-  //   { name: "responsive design", level: "78%" },
-  //   { name: "wed animation", level: "70%" },
-  //   { name: "git", level: "70%" },
-  // ];
+  
   return (
 
     <div>
-      <div className="mt-2 lg:mt-15 ">
+      <div className="mt-10 lg:mt-15">
           <h1
             className="text-center pb-2  text-xl m
           md:text-2xl lg:text-3xl font-bold mt-2 lg:pt-10 text-white"
@@ -24,7 +15,7 @@ const Skills = () => {
           
         </div>
 
-        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-2 m-2 lg:m-5 text-white">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-2 m-2 lg:m-5 text-white px-5 lg:px-10 py-5 lg:py-10">
 
           <div className="pb-3 lg:p-5 mt-2 ">
             
@@ -103,23 +94,6 @@ const Skills = () => {
       </div>
     
    
-    // <div className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
-    //   <div
-    //     className="flex
-    //   justify-center"
-    //   >
-    //     <h1>Technical Skills</h1>
-    //   </div>
-    //   {skill.map((skill, index) => (
-    //     <div className="flex" key={index}>
-    //       <h1>{skill.name}</h1>
-          
-    //       <h1>{skill.level}</h1>
-    //       <div className="w-full"></div>
-    //     </div>
-        
-    //   ))}
-    // </div>
   );
 };
 
