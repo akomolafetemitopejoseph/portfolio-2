@@ -64,8 +64,8 @@ const Work = () => {
               />
             </div>
             {/* //NOTE: correction need to be made here ON THE E-COMMANCE PAGE*/}
-            <div>
-              <div>{project.liveDemo}</div>
+            <div className="m-5">
+              <div className="text-white font-bold text-xl lg:text-2xl mt-5 lg:mt-10 capitalize">{project.liveDemo}</div>
               <h1>{project.repo}</h1>
               <div className="flex">
                 <h1>{project.react}</h1>
