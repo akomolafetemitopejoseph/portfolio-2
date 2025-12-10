@@ -12,8 +12,9 @@ const Home = () => {
       <HeroSection />
       <Services />
       <Skills />
-      <ContactPage />
       <Work />
+      <ContactPage />
+
       <Ratings />
     </div>
   );
