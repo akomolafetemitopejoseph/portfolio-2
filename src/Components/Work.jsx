@@ -54,10 +54,10 @@ const Work = () => {
       </div>
       <div className="sm:flex gap-5">
         {myProject.map((project, index) => (
-          <div className="border-1 border-green-200 rounded-2xl mt-10" key={index}>
+          <div className="border-1 hover:w-200 border-green-200 rounded-2xl mt-10" key={index}>
             <div>
               <img
-                className="w-fit sm:w-[
+                className="w-full sm:w-[
               600px] h-[150px] sm:h-[250px] rounded-tr-2xl rounded-tl-2xl"
                 src={project.image}
                 alt=""
@@ -65,10 +65,10 @@ const Work = () => {
             </div>
             {/* //NOTE: correction need to be made here ON THE E-COMMANCE PAGE*/}
             <div className="m-5">
-              <div className="text-white font-bold text-xl sm:text-2xl mt-5 sm:mt-10 capitalize cursor-pointer">
+              <div className="text-white hover:text-green-100 font-bold text-xl sm:text-2xl mt-5 sm:mt-10 capitalize cursor-pointer">
                 {project.liveDemo}
               </div>
-              <h1 className="text-white font-bold text-xl sm:text-xl capitalize cursor-pointer">
+              <h1 className="text-white hover:text-green-100 mt-5 font-bold text-xl sm:text-xl capitalize cursor-pointer">
                 {project.repo}
               </h1>
               <div className="grid grid-cols-2 gap-2 mt-5">
