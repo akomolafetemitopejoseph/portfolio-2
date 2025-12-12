@@ -1,15 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
     <div>
-        <div className='ring-1 mt-10 mb-10'></div>
-        <div className='text-center'>
-            <p>&copy;  <span>2026</span> akomolafe temitope joseph. <span>all</span> right reserved</p>
-
-        </div>
+      <p
+        className="text-center text-sm lg:text-xl font-bold p-5 lg:p-10 border-1 border-gray-800 text-gray-900
+      "
+      >
+        &copy; <span className="text-pink-950">2026</span> Akomolafe Temitope.
+        <span className="text-green-400 mx-2"> All</span>rights reserved.
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
