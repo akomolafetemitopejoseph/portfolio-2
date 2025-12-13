@@ -9,7 +9,7 @@ import { CiSaveDown1 } from "react-icons/ci";
 const HeroSection = () => {
   return (
     <main className=" flex-1  text-center lg:flex gap-2 px-5 py-5  lg:px-10 lg:pt-10 text-white">
-      <div className="flex justify-center mt-3 lg:mt-5">
+      <div className="flex justify-center mt-20">
         <img
           className=" w-[300px] lg:w-300 h-[300px] lg:h-100 rounded-full"
           src={imgmain}
@@ -18,7 +18,7 @@ const HeroSection = () => {
       </div>
       <div>
         <div>
-          <div className="flex-1 lg:flex">
+          <div className="flex-1 lg:flex mt-10 lg:mt-20">
             <div>
               <h1 className="text-2xl mt-3 lg:text-2xl font-extrabold mb-3 lg:mb-5">
                 Frontend Developer

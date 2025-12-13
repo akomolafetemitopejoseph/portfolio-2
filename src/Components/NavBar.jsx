@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <div className="">
-      <nav className="flex lg: lg:flex justify-between text-center items-center px-3 py-5 lg:px-5 lg:pt-5  text-white">
+      <nav className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-5 lg:px-5 lg:pt-5  text-white">
         <div className="lg:flex justify-center items-center">
           <div className="flex justify-center items-center">
             <img
@@ -27,25 +27,25 @@ function NavBar() {
         </div>
 
         <div className="">
-          <ul className="hidden lg:flex  justify-between text-center capitalize font-semibold text-xl gap-5 lg:gap-10">
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
+          <ul className="hidden lg:flex text-green-900  justify-between text-center capitalize font-extrabold text-xl gap-5 lg:gap-10 z-100">
+            <li className="cursor-pointer hover:text-green-700 hover:border-b-1 transition-all duration-400">
               home
             </li>
 
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
+            <li className="cursor-pointer hover:text-green-700 hover:border-b-1 transition-all duration-400">
               services
             </li>
 
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
+            <li className="cursor-pointer hover:text-green-700 hover:border-b-1 transition-all duration-400">
               skills
             </li>
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1">
+            <li className="cursor-pointer hover:text-green-700 hover:border-b-1">
               work
             </li>
-            <li className="cursor-pointer hover:text-green-800 hover:border-b-1 transition-all duration-400">
+            <li className="cursor-pointer hover:text-green-700 hover:border-b-1 transition-all duration-400">
               contact
             </li>
-            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-xl border-2 border-green-900 px-4 py-1 rounded cursor-pointer transition-all duration-400">
+            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-xl border-2 text-white hover:text-green-200 border-green-900 px-4 py-1 rounded cursor-pointer transition-all duration-400">
               hire me
             </button>
           </ul>
