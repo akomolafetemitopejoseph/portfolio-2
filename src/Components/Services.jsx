@@ -55,7 +55,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
+    <div id="services" className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
       <div className="mb-2 lg:mb-5">
         <h1 className="text-[16px] font-bold lg:text-xl">
           Hi there! I’m a frontend developer with a passion for creating

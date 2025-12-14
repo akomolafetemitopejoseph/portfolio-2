@@ -46,7 +46,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="px-5 py-5  sm:px-10 sm:pt-10">
+    <div id="work" className="px-5 py-5  sm:px-10 sm:pt-10">
       <div>
         <h1 className="text-center text-2xl sm:text-4xl text-white font-bold capitalize">
           my projects

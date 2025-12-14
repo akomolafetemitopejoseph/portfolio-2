@@ -10,7 +10,7 @@ import { BsTelephoneInbound } from "react-icons/bs";
 
 const ContactPage = () => {
   return (
-    <div className="px-5 py-5  lg:px-10 lg:pt-10">
+    <div id="contact" className="px-5 py-5  lg:px-10 lg:pt-10">
       <div>
         <h1 className="flex justify-center mb-5 items-center gap-2 text-2xl lg:text-4xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
           <BsEnvelopeArrowDownFill className="text-gray-400" /> contact
