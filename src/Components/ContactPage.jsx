@@ -12,7 +12,7 @@ const ContactPage = () => {
   return (
     <div className="px-5 py-5  lg:px-10 lg:pt-10">
       <div>
-        <h1 className="flex justify-center mb-10 lg:mb-15 items-center gap-2 text-2xl lg:text-4xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
+        <h1 className="flex justify-center mb-5 items-center gap-2 text-2xl lg:text-4xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
           <BsEnvelopeArrowDownFill className="text-gray-400" /> contact
         </h1>
       </div>
@@ -107,7 +107,7 @@ const ContactPage = () => {
 
           <button
             type="submit"
-            className="w-full flex justify-center items-center gap-3 text-white bg-green-900 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-xl p-3 lg:p-5 lg:text-2xl w lg:p-5-lg:full 2xl:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+            className="w-full flex justify-center items-center gap-3 text-white bg-green-900 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-xl p-3 lg:p-5 lg:text-2xl w lg:p-5-lg:full 2xl:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 transition-all duration-600 cursor-pointer"
           >
             <FiSend /> Submit
           </button>

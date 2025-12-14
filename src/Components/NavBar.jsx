@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <div className="">
-      <nav className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-5 lg:px-5 lg:pt-5  text-white">
+      <nav className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-3 lg:px-5 lg:pt-2  text-white">
         <div className="lg:flex justify-center items-center">
           <div className="flex justify-center items-center">
             <img
