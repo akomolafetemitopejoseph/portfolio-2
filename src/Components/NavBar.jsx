@@ -13,7 +13,12 @@ function NavBar() {
 
   return (
     <div className="">
-      <nav className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-5 lg:px-10 lg:pt-5  text-white">
+      <nav
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-5 lg:px-10 lg:pt-5 z-50  text-white"
+      >
         <div className="lg:flex justify-center items-center">
           <div className="flex justify-center items-center">
             <img

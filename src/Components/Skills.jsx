@@ -13,7 +13,12 @@ const Skills = () => {
       </div>
 
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-2 m-2 lg:m-5 text-white px-5 lg:px-2 py-5 lg:mt-1 ">
-        <div className="pb-3 lg:p-5 mt-2 ">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+          className="pb-3 lg:p-5 mt-2 "
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl  space-30 mb-2">
             React <span>70%</span>
           </h1>
@@ -22,7 +27,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 mt-2">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2800"
+          className="pb-3 lg:p-5 mt-2"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             Tailwind <span>78%</span>
           </h1>
@@ -31,7 +41,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 mt-2">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2700"
+          className="pb-3 lg:p-5 mt-2"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             JavaScript <span>50%</span>
           </h1>
@@ -40,7 +55,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 mt-2">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2600"
+          className="pb-3 lg:p-5 mt-2"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             Modern CSS <span>78%</span>
           </h1>
@@ -49,7 +69,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 mt-2">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2500"
+          className="pb-3 lg:p-5 mt-2"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             UI/UX Design <span>70%</span>
           </h1>
@@ -58,7 +83,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 lg:mt-2">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2400"
+          className="pb-3 lg:p-5 lg:mt-2"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             Responsive Design <span>70%</span>
           </h1>
@@ -67,7 +97,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 lg:mt-4">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2300"
+          className="pb-3 lg:p-5 lg:mt-4"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             Web Animation <span>70%</span>
           </h1>
@@ -76,7 +111,12 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="pb-3 lg:p-5 lg:mt-4">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-easing="linear"
+          data-aos-duration="2300"
+          className="pb-3 lg:p-5 lg:mt-4"
+        >
           <h1 className="flex justify-between text-sm lg:text-2xl mb-2">
             Git <span>75%</span>
           </h1>

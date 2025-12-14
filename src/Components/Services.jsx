@@ -56,7 +56,12 @@ const Services = () => {
 
   return (
     <div id="services" className="px-5 py-5  lg:px-10 lg:pt-10 text-gray-400">
-      <div className="mb-2 lg:mb-5">
+      <div
+        data-aos="zoom-in-down"
+        data-aos-easing="linear"
+        data-aos-duration="3000"
+        className="mb-2 lg:mb-5"
+      >
         <h1 className="text-[16px] font-bold lg:text-xl">
           Hi there! I’m a frontend developer with a passion for creating
           beautiful, easy-to-use websites. I love turning ideas into clean,
@@ -72,6 +77,9 @@ const Services = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-2 lg:mt-5 ">
         {mySevices.map((mykey, index) => (
           <div
+            data-aos="zoom-in-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
             className="block p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
             key={index}
           >

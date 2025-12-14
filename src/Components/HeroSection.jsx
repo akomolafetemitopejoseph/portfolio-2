@@ -8,6 +8,9 @@ import { CiSaveDown1 } from "react-icons/ci";
 const HeroSection = () => {
   return (
     <main
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="3000"
       id="home"
       className=" flex-1  text-center lg:flex gap-2 px-5 py-5  lg:px-10 lg:pt-10 text-white"
     >

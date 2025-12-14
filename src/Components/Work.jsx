@@ -52,7 +52,7 @@ const Work = () => {
           my projects
         </h1>
       </div>
-      <div className="sm:flex gap-5">
+      <div  className="sm:flex gap-5">
         {myProject.map((project, index) => (
           <div
             className="border-1 hover:w-200 border-green-200 rounded-2xl mt-10"
