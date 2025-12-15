@@ -13,7 +13,7 @@ const Home = () => {
     Aos.init();
   }, []);
   return (
-    <div>
+    <div className="overflow-hidden">
       <HeroSection />
       <Services />
       <Skills />

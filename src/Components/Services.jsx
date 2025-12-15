@@ -70,7 +70,7 @@ const Services = () => {
           your services, I’m here to make your online presence stand out.
         </h1>
       </div>
-      <div className="text-2xl font-bold lg:text-4xl capitalize mt-5 mb-3 lg:mb-5 lg:mt-10 ">
+      <div className="text-2xl font-bold lg:text-4xl capitalize mt-5 mb-3 lg:mb-10 lg:mt-10 ">
         <h1>my services as a frontend developer</h1>
       </div>
 

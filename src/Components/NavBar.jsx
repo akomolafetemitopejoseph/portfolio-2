@@ -17,7 +17,7 @@ function NavBar() {
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-5 lg:px-10 lg:pt-5 z-50  text-white"
+        className="flex lg:flex justify-between fixed top-0 right-0 left-0 text-center items-center px-3 py-5 lg:px-10 lg:pt-5 z-50  text-white "
       >
         <div className="lg:flex justify-center items-center">
           <div className="flex justify-center items-center">
@@ -57,6 +57,11 @@ function NavBar() {
                 work
               </li>
             </Link>
+            <Link to="testimonial" smooth={true} duration={500}>
+              <li className="cursor-pointer hover:text-green-700 hover:border-b-1">
+                testimonial
+              </li>
+            </Link>
 
             <Link to="contact" smooth={true} duration={500}>
               <li className="cursor-pointer hover:text-green-700 hover:border-b-1 transition-all duration-400">
@@ -69,7 +74,7 @@ function NavBar() {
           </ul>
         </div>
 
-        <div className="flex lg:hidden justify-end mx-2.5 my-3 text-white z-10">
+        <div className="flex lg:hidden justify-end mx-2.5 my-3 text-green-400">
           {isMobile ? (
             <RxCross1 onClick={toggleMobile} className="text-3xl" />
           ) : (
@@ -81,7 +86,7 @@ function NavBar() {
       {/* NOTE: FOR MOBILE SCREEN */}
 
       {isMobile && (
-        <div className="fixed right-0 top-0 w-[70%]  lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 ">
+        <div className="fixed right-0 top-0 w-[70%]  lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 z-10">
           <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
             <Link to="home" smooth={true} duration={500}>
               <li className="hover:text-green-800 hover:border-b-1">home</li>

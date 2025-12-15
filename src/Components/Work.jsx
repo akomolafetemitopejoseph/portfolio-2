@@ -48,8 +48,9 @@ const Work = () => {
   return (
     <div id="work" className="px-5 py-5  sm:px-10 sm:pt-10">
       <div>
-        <h1 className="text-center text-2xl sm:text-4xl text-white font-bold capitalize">
-          my projects
+        <h1 className="text-center  text-xl 
+          md:text-2xl lg:text-3xl font-bold mt-3 lg:mt-10 text-white">
+          My Projects
         </h1>
       </div>
       <div
