@@ -10,7 +10,13 @@ import { BsTelephoneInbound } from "react-icons/bs";
 
 const ContactPage = () => {
   return (
-    <div id="contact" className="px-5 py-5  lg:px-10 lg:pt-10">
+    <div
+      // data-aos="zoom-in-down"
+      // data-aos-easing="linear"
+      // data-aos-duration="2300"
+      id="contact"
+      className="px-5 py-5  lg:px-10 lg:pt-10"
+    >
       <div>
         <h1 className="flex justify-center mb-5 items-center gap-2 text-2xl lg:text-4xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
           <BsEnvelopeArrowDownFill className="text-gray-400" /> contact
@@ -18,7 +24,11 @@ const ContactPage = () => {
       </div>
 
       <div className=" lg:flex justify-center items-center gap-10">
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="2300"
+        >
           <h1 className="text-gray-400 text-xl lg:text-2xl font-bold mb-3">
             Let's talk
           </h1>
@@ -55,7 +65,12 @@ const ContactPage = () => {
           </div>
         </div>
         <form className="w-full mt-5">
-          <div className="relative z-0 w-full mb-5 group">
+          <div
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2300"
+            className="relative z-0 w-full mb-5 group"
+          >
             <input
               type="text"
               name="floating_name"
@@ -64,15 +79,14 @@ const ContactPage = () => {
               placeholder=" "
               required
             />
-            <label
-              
-              className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-            >
+            <label className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
               Name :
             </label>
           </div>
 
-          <div className="relative z-0 w-full mb-5 group">
+          <div data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2700" className="relative z-0 w-full mb-5 group">
             <input
               type="email"
               name="floating_email"
@@ -81,14 +95,13 @@ const ContactPage = () => {
               placeholder=" "
               required
             />
-            <label
-            
-              className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-            >
+            <label className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
               Email address :
             </label>
           </div>
-          <div className="relative z-0 w-full mb-5 group">
+          <div data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="3000" className="relative z-0 w-full mb-5 group">
             <input
               type="text"
               name="floating_text"
@@ -97,10 +110,7 @@ const ContactPage = () => {
               placeholder=" "
               required
             />
-            <label
-             
-              className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-            >
+            <label className="peer-focus:font-medium absolute text-xl p-3 lg:p-5 lg:text-2xl text-green-500 dark:text-green-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
               Message :
             </label>
           </div>
