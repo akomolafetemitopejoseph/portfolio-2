@@ -17,7 +17,7 @@ const HeroSection = () => {
     >
       <div className="flex justify-center mt-20">
         <img
-          className=" w-[300px] lg:w-100 h-[300px] lg:h-100 rounded-full border-8 border-green-950"
+          className=" w-[300px] lg:w-100 h-[300px] lg:h-100 rounded-full border-8 border-green-950 shadow-green-950 shadow-2xl"
           src={imgmain}
           alt="heroimage"
         />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { BsEnvelopeArrowDownFill } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
 import { FiSend } from "react-icons/fi";
@@ -7,8 +7,29 @@ import { FiSend } from "react-icons/fi";
 // import { SiWhatsapp } from "react-icons/si";
 // import { FaLinkedinIn } from "react-icons/fa";
 import { BsTelephoneInbound } from "react-icons/bs";
+import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_47tn6df", "template_gffygo6", form.current, {
+        publicKey: "U_CPVRyHKY9JSPKGr",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+
+          // e.target.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div
       // data-aos="zoom-in-down"
@@ -64,7 +85,18 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <form className="w-full mt-5">
+
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+
+        {/* <form className="w-full mt-5">
           <div
             data-aos="fade-left"
             data-aos-easing="linear"
@@ -121,7 +153,7 @@ const ContactPage = () => {
           >
             <FiSend /> Submit
           </button>
-        </form>
+        </form> */}
       </div>
       {/* <div>
         <h1 className="text-xl lg:text-2xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
