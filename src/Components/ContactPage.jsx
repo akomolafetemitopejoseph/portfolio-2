@@ -80,20 +80,54 @@ const ContactPage = () => {
                 <MdLocationPin /> location :
               </h1>
               <span className="text-gray-400 text-[17px] lg:text-l flex items-center gap-2 capitalize">
-                lagos{" "}
+                lagos
               </span>
             </div>
           </div>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+        <form className="w-full" ref={form} onSubmit={sendEmail}>
+          <div className="mb-5 lg:mb-10">
+            <label className="peer-focus:font-medium text-xl lg:text-2xl text-green-500 dark:text-green-400 rtl:peer-focus:left-auto peer-focus:text-green-600  peer-focus:-translate-y-6">
+              Name
+            </label>
+            <input
+              className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer capitalize"
+              placeholder=" "
+              required
+              type="text"
+              name="name"
+            />
+          </div>
+
+          <div className="mb-5 lg:mb-10">
+            <label className="peer-focus:font-medium text-xl lg:text-2xl text-green-500 dark:text-green-400 rtl:peer-focus:left-auto peer-focus:text-green-600  peer-focus:-translate-y-6">
+              Email
+            </label>
+            <input
+              className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer"
+              placeholder=" "
+              required
+              type="email"
+              name="email"
+            />
+          </div>
+
+          <div className="mb-5 lg:mb-10">
+            <label className="peer-focus:font-medium text-xl lg:text-2xl text-green-500 dark:text-green-400  rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500">
+              Message
+            </label>
+
+            <textarea
+              className="w-full resize-none outline-none text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer "
+              name="message"
+            />
+          </div>
+
+          <div className="w-full flex justify-center items-center gap-3 text-white bg-green-900 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-xl p-3 lg:p-5 lg:text-2xl w lg:p-5-lg:full 2xl:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 transition-all duration-600 cursor-pointer">
+            <FiSend />
+            <input className="cursor-pointer" type="submit" value="Send" />
+          </div>
         </form>
 
         {/* <form className="w-full mt-5">
@@ -151,7 +185,7 @@ const ContactPage = () => {
             type="submit"
             className="w-full flex justify-center items-center gap-3 text-white bg-green-900 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-xl p-3 lg:p-5 lg:text-2xl w lg:p-5-lg:full 2xl:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 transition-all duration-600 cursor-pointer"
           >
-            <FiSend /> Submit
+           
           </button>
         </form> */}
       </div>
