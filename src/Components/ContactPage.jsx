@@ -21,12 +21,12 @@ const ContactPage = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("message sent successfully😂");
 
-          // e.target.reset();
+          form.current.reset();
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("FAILED...", error.text);
         }
       );
   };
@@ -87,12 +87,17 @@ const ContactPage = () => {
         </div>
 
         <form className="w-full" ref={form} onSubmit={sendEmail}>
-          <div className="mb-5 lg:mb-10">
+          <div
+            className="mb-5 lg:mb-10"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2300"
+          >
             <label className="peer-focus:font-medium text-xl lg:text-2xl text-green-500 dark:text-green-400 rtl:peer-focus:left-auto peer-focus:text-green-600  peer-focus:-translate-y-6">
               Name
             </label>
             <input
-              className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer capitalize"
+              className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 capitalize"
               placeholder=" "
               required
               type="text"
@@ -100,7 +105,12 @@ const ContactPage = () => {
             />
           </div>
 
-          <div className="mb-5 lg:mb-10">
+          <div
+            className="mb-5 lg:mb-10"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2700"
+          >
             <label className="peer-focus:font-medium text-xl lg:text-2xl text-green-500 dark:text-green-400 rtl:peer-focus:left-auto peer-focus:text-green-600  peer-focus:-translate-y-6">
               Email
             </label>
@@ -113,7 +123,12 @@ const ContactPage = () => {
             />
           </div>
 
-          <div className="mb-5 lg:mb-10">
+          <div
+            className="mb-5 lg:mb-10"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <label className="peer-focus:font-medium text-xl lg:text-2xl text-green-500 dark:text-green-400  rtl:peer-focus:left-auto peer-focus:text-green-600 peer-focus:dark:text-green-500">
               Message
             </label>
