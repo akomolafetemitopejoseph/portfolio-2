@@ -5,6 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 import imgmain from "../assets/myimage.jpg";
 import { CiSaveDown1 } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
+import temitopeCv from "../assets/temitopeCV2.pdf";
 
 const HeroSection = () => {
   return (
@@ -54,10 +55,12 @@ const HeroSection = () => {
 
               <div className=" flex justify-center lg:flex lg:justify-evenly mt-5 lg:mb-5">
                 <div className="grid grid-cols-1 justify-center items-center gap-2 lg:flex">
-                  <button className="uppercase mb-3 flex justify-center items-center gap-2 p-3  hover:bg-green-800 transform duration-500 active:bg-green-900 font-semibold text-xl lg:text-xl border-2 border-green-900 px-2 lg:px-3 lg:py-2 rounded cursor-pointer w-fit ">
-                    download cv
-                    <CiSaveDown1 />
-                  </button>
+                  <a href={temitopeCv} download>
+                    <button className="uppercase mb-3 flex justify-center items-center gap-2 p-3  hover:bg-green-800 transform duration-500 active:bg-green-900 font-semibold text-xl lg:text-xl border-2 border-green-900 px-2 lg:px-3 lg:py-2 rounded cursor-pointer w-fit ">
+                      download cv
+                      <CiSaveDown1 />
+                    </button>
+                  </a>
 
                   <button className="uppercase mb-3 flex justify-center items-center gap-2 p-3 hover:bg-green-800 transform duration-500 active:bg-green-900 font-semibold text-xl lg:text-xl border-2 border-green-900 px-2 lg:px-3 lg:py-2 rounded cursor-pointer   w-fit">
                     certificate
