@@ -68,10 +68,15 @@ const HeroSection = () => {
                   </button>
                 </div>
               </div>
+
               <div className="flex gap-5 text-center justify-center items-center  mt-2">
-                <FaLinkedinIn className="text-xl lg:text-2xl cursor-pointer hover:text-green-300 transform duration-500" />
+                <a href="https://www.linkedin.com/in/akomolafe-temitope-95b88527b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                  <FaLinkedinIn className="text-xl lg:text-2xl cursor-pointer hover:text-green-300 transform duration-500" />
+                </a>
+                <a href="https://github.com/akomolafetemitopejoseph"></a>
                 <FaGithub className="text-xl lg:text-2xl cursor-pointer  hover:text-green-300 transform duration-500" />
-                <BsTwitterX className="text-xl lg:text-2xl cursor-pointer hover:text-green-300 transform duration-500" />
+                <a href="https://x.com/AkomolafeTemi19"><BsTwitterX className="text-xl lg:text-2xl cursor-pointer hover:text-green-300 transform duration-500" /></a>
+                
               </div>
             </div>
           </div>

@@ -68,9 +68,11 @@ function NavBar() {
                 contact
               </li>
             </Link>
-            <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-xl text-white hover:text-green-200 border-2 border-green-900 px-4 py-1 rounded cursor-pointer transition-all duration-400">
-              hire me
-            </button>
+            <a href="https://wa.me/2349164127577">
+              <button className="capitalize bg-green-900 hover:bg-green-800 active:bg-green-900 font-semibold text-xl text-white hover:text-green-200 border-2 border-green-900 px-4 py-1 rounded cursor-pointer transition-all duration-400">
+                hire me
+              </button>
+            </a>
           </ul>
         </div>
 
