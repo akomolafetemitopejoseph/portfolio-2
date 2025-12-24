@@ -63,11 +63,13 @@ const Services = () => {
         className="mb-2 lg:mb-5"
       >
         <h1 className="text-[16px] font-bold lg:text-xl">
-          Hi there! I’m a frontend developer with a passion for creating
-          beautiful, easy-to-use websites. I love turning ideas into clean,
-          responsive designs that work perfectly on any device. Whether you need
-          a personal portfolio, a business site, or a simple page to showcase
-          your services, I’m here to make your online presence stand out.
+          I’m a frontend developer focused on building clean, responsive, and
+          user-friendly web experiences. I enjoy turning ideas into functional
+          designs using modern web technologies. When I’m not coding, I’m
+          working on garden maintenance and plant care—staying hands-on with
+          nature and creating healthy, beautiful outdoor spaces. This balance
+          helps me stay creative, patient, and detail-oriented in everything I
+          do.
         </h1>
       </div>
       <div className="text-2xl font-bold lg:text-4xl capitalize mt-5 mb-3 lg:mb-10 lg:mt-10 ">
