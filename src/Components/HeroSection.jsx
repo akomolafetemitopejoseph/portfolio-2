@@ -28,7 +28,7 @@ const HeroSection = () => {
         <div>
           <div className="flex-1 lg:flex mt-10 lg:mt-20">
             <div>
-              <h1 className="text-2xl mt-3 lg:text-2xl font-extrabold mb-3 lg:mb-5">
+              <h1 className="text-2xl mt-3 lg:text-2xl font-extrabold mb-3 lg:mb-5 underline underline-offset-5 decoration-10 under ">
                 Frontend Developer
               </h1>
 

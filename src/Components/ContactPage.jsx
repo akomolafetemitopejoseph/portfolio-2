@@ -40,7 +40,8 @@ const ContactPage = () => {
     >
       <div>
         <h1 className="flex justify-center mb-5 items-center gap-2 text-2xl lg:text-4xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
-          <BsEnvelopeArrowDownFill className="text-gray-400" /> contact
+          <BsEnvelopeArrowDownFill className="text-gray-400"/>
+          contact
         </h1>
       </div>
 

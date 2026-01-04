@@ -101,7 +101,7 @@ export const InfiniteMovingCards = ({
       <div>
         <h1
           className="text-center  text-xl 
-          md:text-2xl lg:text-3xl font-bold mt-2 lg:mt-10 text-white"
+          md:text-2xl lg:text-3xl font-bold mt-2 lg:mt-10 text-white underline underline-offset-10 decoration-10 under"
         >
           Testimonials
         </h1>

@@ -73,7 +73,12 @@ const Services = () => {
         </h1>
       </div>
       <div className="text-2xl font-bold lg:text-4xl capitalize mt-5 mb-3 lg:mb-10 lg:mt-10 ">
-        <h1>my services as a frontend developer</h1>
+        <h1>
+          my services as a
+          <span className="underline underline-offset-10 decoration-10 under ml-2 font-light">
+            Frontend developer
+          </span>
+        </h1>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-2 lg:mt-5 ">

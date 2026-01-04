@@ -38,7 +38,7 @@ const Work = () => {
       <div>
         <h1
           className="text-center  text-xl 
-          md:text-2xl lg:text-3xl font-bold mt-3 lg:mt-10 text-white"
+          md:text-2xl lg:text-3xl font-bold mt-3 lg:mt-10 text-white underline underline-offset-10 decoration-10 under ml-2"
         >
           My Projects
         </h1>

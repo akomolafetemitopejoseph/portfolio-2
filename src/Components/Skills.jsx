@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="mt-10 lg:mt-15">
         <h1
           className="text-center  text-xl 
-          md:text-2xl lg:text-3xl font-bold mt-2 lg:mt-5 text-white"
+          md:text-2xl lg:text-3xl font-bold mt-2 lg:mt-5 text-white underline underline-offset-10 decoration-10 under"
         >
           Technical Skills
         </h1>
