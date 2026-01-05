@@ -72,7 +72,7 @@ const Services = () => {
           do.
         </h1>
       </div>
-      <div className="text-2xl font-bold lg:text-4xl capitalize mt-5 mb-3 lg:mb-10 lg:mt-10 ">
+      <div className="text-xl font-bold lg:text-4xl capitalize mt-5 mb-10 lg:mt-10 ">
         <h1>
           my services as a
           <span className="underline underline-offset-10 decoration-10 under ml-2 font-light">

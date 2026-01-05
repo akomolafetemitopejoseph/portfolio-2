@@ -33,7 +33,7 @@ function NavBar() {
         </div>
 
         <div className="">
-          <ul className="hidden lg:flex text-green-900  justify-between text-center capitalize font-extrabold text-xl gap-5 lg:gap-10 z-100">
+          <ul className="hidden lg:flex text-green-900  justify-between text-center capitalize font-extrabold text-xl lg:text-2xl gap-5 lg:gap-10 z-100">
             <Link to="home" smooth={true} duration={500}>
               <li className="cursor-pointer hover:text-green-700 hover:border-b-1 transition-all duration-400">
                 home
@@ -88,7 +88,7 @@ function NavBar() {
       {/* NOTE: FOR MOBILE SCREEN */}
 
       {isMobile && (
-        <div className="fixed right-0 top-0 w-[70%]  lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 z-10">
+        <div className="fixed right-0 top-0 w-[70%]  lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 z-10 ">
           <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
             <Link to="home" smooth={true} duration={500}>
               <li className="hover:text-green-800 hover:border-b-1">home</li>

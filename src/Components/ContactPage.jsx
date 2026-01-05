@@ -8,6 +8,8 @@ import { FiSend } from "react-icons/fi";
 // import { FaLinkedinIn } from "react-icons/fa";
 import { BsTelephoneInbound } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import { data } from "react-router-dom";
 
 const ContactPage = () => {
   const form = useRef();
@@ -21,12 +23,14 @@ const ContactPage = () => {
       })
       .then(
         () => {
-          alert("message sent successfully😂");
+          // alert("message sent successfully😂");
+          toast.success("Form submitted successfully");
 
           form.current.reset();
         },
         (error) => {
           alert("FAILED...", error.text);
+          toast.error(data.text);
         }
       );
   };
@@ -40,7 +44,7 @@ const ContactPage = () => {
     >
       <div>
         <h1 className="flex justify-center mb-5 items-center gap-2 text-2xl lg:text-4xl bg-gradient-to-r from-emerald-900 via-green-600 to-stone-900 bg-clip-text text-transparent font-extrabold capitalize">
-          <BsEnvelopeArrowDownFill className="text-gray-400"/>
+          <BsEnvelopeArrowDownFill className="text-gray-400" />
           contact
         </h1>
       </div>
@@ -98,7 +102,7 @@ const ContactPage = () => {
               Name
             </label>
             <input
-              className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 capitalize"
+              className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer capitalize"
               placeholder=" "
               required
               type="text"
@@ -117,7 +121,6 @@ const ContactPage = () => {
             </label>
             <input
               className=" w-full text-xl lg:text-2xl text-gray-300 bg-transparent border-0 border-b-2 border-green-300 appearance-none dark:text-white dark:border-green-600 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer"
-              placeholder=" "
               required
               type="email"
               name="email"
