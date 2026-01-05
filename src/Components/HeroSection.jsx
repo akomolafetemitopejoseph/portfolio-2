@@ -15,7 +15,7 @@ const HeroSection = () => {
       data-aos-easing="linear"
       data-aos-duration="3000"
       id="home"
-      className=" flex-1 lg:justify-center text-center lg:flex gap-20 px-5 py-5  lg:px-10 lg:pt-10 text-white"
+      className=" flex-1 lg:justify-center text-center lg:flex gap-20 px-5 py-5  lg:px-10 lg:pt-10 text-white "
     >
       <div className="flex justify-center mt-20">
         <img

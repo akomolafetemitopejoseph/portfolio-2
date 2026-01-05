@@ -4,11 +4,14 @@ import NavBar from "./Components/NavBar";
 import Home from "./pages/Home";
 import Footer from "./Components/Footer";
 // import { style } from "motion/react-client";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-zinc-900 via-neutral-700 to-stone-900 font-family font-optical-sizing font-style">
+    <div
+      className="font-family font-optical-sizing font-style bg-cover bg-center"
+      style={{ backgroundImage: "url('/background.jpg')" }}
+    >
       <ToastContainer />
       <NavBar />
       <Home />
