@@ -11,6 +11,9 @@ function NavBar() {
     setIsMobile(!isMobile);
   };
 
+  {
+    /* NOTE: FOR LG SCREEN SCREEN */
+  }
   return (
     <div className="">
       <nav
