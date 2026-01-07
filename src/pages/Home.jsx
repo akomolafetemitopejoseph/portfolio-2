@@ -8,7 +8,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { InfiniteMovingCards } from "../components3/infinite-moving-cards";
 import { FloatButton } from "antd";
-import FloatButtonGroup from "antd/es/float-button/FloatButtonGroup";
 
 const Home = () => {
   useEffect(() => {

@@ -88,7 +88,7 @@ function NavBar() {
       {/* NOTE: FOR MOBILE SCREEN */}
 
       {isMobile && (
-        <div className="fixed right-0 top-0 w-[70%]  lg:hidden h-full bg-gradient-to-r from-slate-700 to-gray-500 opacity-90 z-10 ">
+        <div className="lg:hidden z-10 fixed right-0 top-20 bg-gray-800 font-bold opacity-95 capitalize w-full text-2xl lg:text-4xl  text-white text-center">
           <ul className="grid grid-cols-1 lg:hidden text-white mt-5 p-5 leading-15 justify-between text-center capitalize font-semibold text-3xl gap-5 lg:gap-10">
             <Link to="home" smooth={true} duration={500}>
               <li className="hover:text-green-800 hover:border-b-1">home</li>
