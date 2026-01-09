@@ -6,7 +6,7 @@ const Services = () => {
       leading: "01",
       head: "Custom wedsite design",
       paragraph:
-        "I design beautiful, user-friendly websites tailored to your business or brand — especially for nature, landscaping, or garden-related projects. Each design reflects your identity and vision with clean layouts and engaging visuals.",
+        "I design beautiful, user-friendly websites tailored to your business or brand. Each design reflects your identity and vision with clean layouts and engaging visuals.",
     },
 
     {
@@ -20,13 +20,13 @@ const Services = () => {
       leading: "03",
       head: "UI/UX Development",
       paragraph:
-        "I turn design ideas into real, interactive experiences using HTML, CSS, Tailwind CSS, and JavaScript, focusing on smooth navigation and easy usability.",
+        "I turn design ideas into real, interactive experiences using HTML, CSS, Tailwind CSS, React and JavaScript, focusing on smooth navigation and easy usability.",
     },
     {
       leading: "04",
       head: "Portfolio & Business Websites",
       paragraph:
-        "Whether you need a personal portfolio, business page, or service site, I build professional websites that help showcase your work — from flower landscaping to plant care and web design.",
+        "Whether you need a personal portfolio, business page, or service site, I build professional websites that help showcase your work.",
     },
     {
       leading: "05",
@@ -38,13 +38,13 @@ const Services = () => {
       leading: "06",
       head: " Landing Pages",
       paragraph:
-        "High-quality landing pages designed to attract visitors and convert them into customers — perfect for showcasing your services, seasonal offers, or garden projects.",
+        "High-quality landing pages designed to attract visitors and convert them into customers — perfect for showcasing your services.",
     },
     {
       leading: "07",
       head: "API & Interactive Features",
       paragraph:
-        "Integration of APIs to display live content or interactive tools — for example, plant diagnosis tools, weather data for gardens, or quote request forms.",
+        "Integration of APIs to display live content or interactive tools.",
     },
     {
       leading: "08",
@@ -72,7 +72,7 @@ const Services = () => {
           do.
         </h1>
       </div>
-      <div className="text-xl font-bold lg:text-4xl capitalize mt-5 mb-10 lg:mt-10 ">
+      <div className="text-[16px] sm:text-sm font-bold lg:text-4xl capitalize mt-5 mb-10 lg:mt-10 ">
         <h1>
           my services as a
           <span className="underline underline-offset-10 decoration-10 under ml-2 font-light">

@@ -11,9 +11,8 @@
   }
 }
 
-@theme {
-  --font-family: "Syne", sans-serif;
-  --font-optical-sizing: auto;
-  --font-weight: <weight>;
-  --font-style: normal;
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

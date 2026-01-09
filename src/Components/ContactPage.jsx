@@ -86,7 +86,7 @@ const ContactPage = () => {
 
         <form className="w-full" ref={form} onSubmit={sendEmail}>
           <div
-            className="mb-5 lg:mb-10"
+            className="mb-5 lg:mb-10 mt-10"
             data-aos="fade-left"
             data-aos-easing="linear"
             data-aos-duration="2300"
