@@ -2,7 +2,7 @@ import React from "react";
 import ecommanceimg from "../assets/ewedsite.png";
 import imgtool from "../assets/imgtools.png";
 import portfolioimg from "../assets/porfolio.png";
-
+import garden from "../assets/garden.png"
 const Work = () => {
   const myProject = [
     {
@@ -32,6 +32,19 @@ const Work = () => {
       reactCons: "React-Icons",
       reactScroll: "React-Scroll",
     },
+    {
+      id: 4,
+      image: garden,
+      liveDemo: "https://akomolafetemitopejoseph.github.io/myprofile/",
+      repo: "https://github.com/akomolafetemitopejoseph",
+      react: "React",
+      tailwind: "Tailwind",
+      motion: "framer motion",
+      antd: "antd",
+      aos: "AOS",
+      reactCons: "React-Icons",
+      reactScroll: "React-Scroll",
+    },
   ];
   return (
     <div id="work" className="px-5 py-5  sm:px-10 sm:pt-10">
@@ -47,7 +60,7 @@ const Work = () => {
         data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-duration="3000"
-        className="sm:flex gap-5"
+        className="grid grid-cols-2 gap-5"
       >
         {myProject.map((project, index) => (
           <div

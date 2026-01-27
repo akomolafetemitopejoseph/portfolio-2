@@ -17,24 +17,22 @@ function App() {
 
   return (
     <div>
-      <div>
-        {loading ? (
-          <Loader />
-        ) : (
-          <div
-            className=" min-h-screen
+      {loading ? (
+        <Loader />
+      ) : (
+        <div
+          className=" min-h-screen
     bg-[url('/background.jpg')]
     bg-cover
     bg-center
     bg-no-repeat"
-          >
-            <ToastContainer />
-            <NavBar />
-            <Home />
-            <Footer />
-          </div>
-        )}
-      </div>
+        >
+          <ToastContainer />
+          <NavBar />
+          <Home />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }

@@ -25,7 +25,7 @@ function NavBar() {
         <div className="lg:flex justify-center items-center">
           <div className="flex justify-center items-center">
             <img
-              className="text-green-900 w-10 h-10"
+              className="w-10 h-10"
               src={imgletterj}
               alt="letterj"
             />
